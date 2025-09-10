@@ -46,7 +46,6 @@ progress {
     gap: 0px;
     width: 85%;
     padding-bottom: 20px;
-    padding-top: 30px;
 }
 
 .task {
@@ -65,7 +64,7 @@ progress {
     font-size: 18px;
     color: #e29be2;
     padding-top: 10px;
-    padding-left: 7%;
+    padding-left: 8%;
     width: 100%;
 }
 
@@ -74,7 +73,7 @@ progress {
     flex-direction: column; 
     align-items: flex-end;
     padding-right: 20px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .header {
@@ -85,19 +84,19 @@ progress {
 
 #textinput {
     height: 30px;
-    width:60%;
+    width:12%;
     text-align: center;
     font-family: "Special Gothic";
-    font-size: 16px;
+    font-size: 15px;
     border-radius: 5px;
 }
 
 #qtyinput {
     height: 30px;
-    width: 35%;
+    width: 12%;
     text-align: center;
     font-family: "Special Gothic";
-    font-size: 16px;
+    font-size: 15px;
     border-radius: 5px;
 }
 
@@ -137,14 +136,15 @@ button:hover {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    padding-bottom: 18px;
 }
   
 .donut {
     --percentage: 0;
     --color: rgb(161, 244, 98);
   
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background: conic-gradient(
       var(--color) calc(var(--percentage) * 1%),
@@ -164,7 +164,7 @@ button:hover {
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 1.2em;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -181,7 +181,7 @@ button:hover {
 }
 
 .quote {
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
     font-style: italic;
     padding-top: 30px;
