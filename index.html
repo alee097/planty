@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UXAB Mini-Project</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Special+Gothic:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href = "style.css">
+        <script src="script.js" defer></script> 
+    </head>
+    <body>
+        <div class = "block">
+            <div class = "header">
+                <h1>Planty 🌱</h1>
+                <div class="clock">
+                    <div id="date"> date </div>
+                    <div id="time"> time </div>
+                </div>
+            </div>
+            <h4>Welcome!</h4>
+            <div class="visualizer">
+                <div class="donut" id="donut" style="--percentage: 0;">
+                    <div class="donut-inner" id="donut-label">0%</div>
+                </div>
+            </div>
+            <h2>Your Tasks</h2>
+                <div class="task">
+                    <input id = "textinput" placeholder = "Type your task(s) here"/>
+                    <input id = "qtyinput" type ="number" min = "1" placeholder="Quantity (if applicable)">
+                    <button onclick="addTask()">Add</button>
+                </div>
+                <div id = "tasklist"></div>
+            <h2>Your Growth</h2>
+                <div id="garden"></div>
+            <div class = "quote">"Believe you can and you're halfway there." - Theodore Roosevelt</div>
+        </div>
+    </body>
+</html>
