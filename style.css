@@ -65,7 +65,7 @@ progress {
     font-size: 18px;
     color: #e29be2;
     padding-top: 10px;
-    padding-left: 4%;
+    padding-left: 7%;
     width: 100%;
 }
 
@@ -85,7 +85,7 @@ progress {
 
 #textinput {
     height: 30px;
-    width:62%;
+    width:60%;
     text-align: center;
     font-family: "Special Gothic";
     font-size: 16px;
@@ -94,7 +94,7 @@ progress {
 
 #qtyinput {
     height: 30px;
-    width: 29%;
+    width: 35%;
     text-align: center;
     font-family: "Special Gothic";
     font-size: 16px;
@@ -107,7 +107,7 @@ button {
     font-family: "Special Gothic";
     font-size: 16px;
     border-radius: 5px;
-    padding: 6px 20px;
+    padding: 6px 18px;
     cursor: pointer;
 }
 
